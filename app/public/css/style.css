@@ -1,0 +1,76 @@
+#start-btn {
+    background-color: rgb(90, 150, 230);
+}
+
+#start-btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#api-link:hover {
+    text-decoration: none;
+}
+
+#github-link:hover {
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+#name,
+#photo {
+    text-align: center;
+    color: white;
+}
+
+#name:focus,
+#photo:focus {
+    outline: none;
+}
+
+#sign_up {
+    background-color: rgb(90, 150, 230);
+    color: white;
+}
+
+legend {
+    padding-top: 50px;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px -2px rgb(141, 141, 141);
+    letter-spacing: 1px;
+}
+
+#about-you {
+    letter-spacing: 2px;
+}
+
+input {
+    letter-spacing: 3px;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+  }
+
+#submit-btn {
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+#api-link,
+#github-link {
+    font-size: 15px;
+}

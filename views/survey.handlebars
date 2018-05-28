@@ -1,22 +1,22 @@
-<main class="pa4 black-80 sans-serif fw1">
+<main class=" black-80 sans-serif fw1">
     <form class="w-80 center">
 
         <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
-            <legend class="f2 fw6 ph0 mh0">About You</legend>
+            <p class="f2 fw4" id='about-you'>About You</p>
             <div class="mt1">
-                <label class="db fw6 lh-copy f6" for="email-address">Name (required)</label>
-                <input class="pa2 input-reset ba bg-transparent w-100" name="name"  id="name">
+                <label class="db fw5 lh-copy f6">Name (required)</label>
+                <input class="pa2 input-reset bg-transparent w-50" name="name"  id="name">
             </div>
             <div class="mv3">
-                <label class="db fw6 lh-copy f6" for="password">Link To Photo Image (required)</label>
-                <input class="pa2 input-reset ba bg-transparent w-100" name="photo"  id="photo">
+                <label class="db fw5 lh-copy f6">Link To Photo Image (required)</label>
+                <input class="pa2 input-reset bg-transparent w-50" name="photo"  id="photo">
             </div>
         </fieldset>
         
-        <hr>
+        {{!-- <hr> --}}
 
-        <h4>Question 1</h4>
-        <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+        <h4 class="mid-gray">Question 1</h4>
+        <p class="gray">Your mind is always buzzing with unexplored ideas and plans.</p>
             <select data-placeholder="" class="chosen-select" id="q1">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -29,8 +29,8 @@
         <br>
         <br>
 
-        <h4>Question 2</h4>
-        <p>Generally speaking, you rely more on your experience than your imagination.</p>
+        <h4 class="mid-gray">Question 2</h4>
+        <p class="gray">Generally speaking, you rely more on your experience than your imagination.</p>
             <select data-placeholder="" class="chosen-select" id="q2">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -43,8 +43,8 @@
         <br>
         <br>
 
-        <h4>Question 3</h4>
-        <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+        <h4 class="mid-gray">Question 3</h4>
+        <p class="gray">You find it easy to stay relaxed and focused even when there is some pressure.</p>
             <select data-placeholder="" class="chosen-select" id="q3">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -57,8 +57,8 @@
         <br>
         <br>
 
-        <h4>Question 4</h4>
-        <p>You rarely do something just out of sheer curiosity.</p>
+        <h4 class="mid-gray">Question 4</h4>
+        <p class="gray">You rarely do something just out of sheer curiosity.</p>
             <select data-placeholder="" class="chosen-select" id="q4">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -71,8 +71,8 @@
         <br>
         <br>
 
-        <h4>Question 5</h4>
-        <p>People can rarely upset you.</p>
+        <h4 class="mid-gray">Question 5</h4>
+        <p class="gray">People can rarely upset you.</p>
             <select data-placeholder="" class="chosen-select" id="q5">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -85,8 +85,8 @@
         <br>
         <br>
 
-        <h4>Question 6</h4>
-        <p>It is often difficult for you to relate to other people’s feelings.</p>
+        <h4 class="mid-gray">Question 6</h4>
+        <p class="gray">It is often difficult for you to relate to other people’s feelings.</p>
             <select data-placeholder="" class="chosen-select" id="q6">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -99,8 +99,8 @@
         <br>
         <br>
 
-        <h4>Question 7</h4>
-        <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+        <h4 class="mid-gray">Question 7</h4>
+        <p class="gray"> In a discussion, truth should be more important than people’s sensitivities.</p>
             <select data-placeholder="" class="chosen-select" id="q7">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -113,8 +113,8 @@
         <br>
         <br>
 
-        <h4>Question 8</h4>
-        <p>You rarely get carried away by fantasies and ideas.</p>
+        <h4 class="mid-gray">Question 8</h4>
+        <p class="gray">You rarely get carried away by fantasies and ideas.</p>
             <select data-placeholder="" class="chosen-select" id="q8">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -127,8 +127,8 @@
         <br>
         <br>
 
-        <h4>Question 9</h4>
-        <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+        <h4 class="mid-gray">Question 9</h4>
+        <p class="gray">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
             <select data-placeholder="" class="chosen-select" id="q9">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -141,8 +141,8 @@
         <br>
         <br>
 
-        <h4>Question 10</h4>
-        <p>You feel more energetic after spending time with a group of people.</p>
+        <h4 class="mid-gray">Question 10</h4>
+        <p class="gray">You feel more energetic after spending time with a group of people.</p>
             <select data-placeholder="" class="chosen-select" id="q10">
                 <option value=""></option>
                 <option value="1">1 (Strongly Disagree)</option>
@@ -155,14 +155,14 @@
         <br>
         <br>
 
-        <input class="b ph3 pv3 input-reset ba white bg-blue w-100 pointer f6 dib" type="submit" value="Submit" data-toggle="modal" id="submit-btn">
+        <input class=" ph3 pv3 input-reset ba white bg-blue w-100 pointer f6 dib" type="submit" value="SUBMIT" data-toggle="modal" id="submit-btn">
 
     </form>
 
-    <div class="mt2 lh-copy tc pv4">
-        <a class="f10 gray link hover-blue" href="/api/friends" target="_blank">API Friends List</a>
-        <span class="mh3">  </span>
-        <a class="f8 gray link hover-blue" href="https://github.com/benjaminhshim/FriendFinder" target="_blank">GitHub Repo</a>
+    <div class=" lh-copy tc pv4">
+        <a class="f10 gray link hover-blue" href="/api/friends" target='_blank' id="api-link">API Friends List</a>
+            <span class="mh3">  </span>
+            <a class="f8 gray link hover-blue" href="https://github.com/benjaminhshim/FriendFinder" target='_blank' id="github-link">GitHub Repo</a>
     </div>
 
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

@@ -60,10 +60,15 @@ router.post('/api/friends', (req, res) => {
     var friendIndex = allDiff.indexOf(leastDiff);
     console.log('Index ' + friendIndex);
 
-    var matchingName = friends[friendIndex];
-    var matchingPhoto = friends[friendIndex];
+    var matchingName = friends[friendIndex].name;
+    var matchingPhoto = friends[friendIndex].photo;
 
-    console.log('Closest match: ' + matchingName.name);
+    res.send({
+        matchingName: matchingName,
+        matchingPhoto: matchingPhoto
+    })
+
+
 
 });
 

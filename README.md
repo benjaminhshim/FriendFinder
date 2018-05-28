@@ -7,3 +7,6 @@ FriendFinder utilizes Node.js and an Express server on the back end and Tachyons
 
 # Setup
 ```npm install``` will install **express**, **express-handlebars**, **body-parser** and **path**.
+
+# Demo
+Demo the app on [Heroku](https://still-fortress-80011.herokuapp.com/)
